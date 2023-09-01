@@ -7,6 +7,8 @@
 
 body {
   font-family: "Montserrat", sans-serif !important;
+  background: rgb(31,199,171);
+  background: linear-gradient(90deg, rgba(31,199,171,1) 0%, rgba(101,47,145,1) 50%, rgba(31,199,171,1) 100%);
 }
 
 .App {
@@ -32,4 +34,8 @@ nav a.nav-link {
 
 .navbar-nav li a.active, .navbar-nav li a:focus {
   border-top: .2rem solid var(--primary-teal);
+}
+
+h4 {
+  padding-top: .75rem;
 }
