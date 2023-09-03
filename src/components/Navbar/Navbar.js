@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../images/logo.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg text-light bg-dark fixed-top">
@@ -15,16 +15,29 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav text-uppercase text-white d-flex justify-content-even fs-4 mx-5 ms-auto mb-2 mb-lg-0">
                     <li className="nav-item mx-2">
-                        <a className="nav-link text-light" aria-current="page" href="#">About</a>
+                        <Link to="/" className="nav-link text-light" aria-current="page">
+                            Home
+                        </Link>
                     </li>
                     <li className="nav-item mx-2">
-                        <a className="nav-link text-light" href="#">Portfolio</a>
+                        <Link to="/about" className="nav-link text-light" aria-current="page">
+                            About
+                        </Link>
                     </li>
                     <li className="nav-item mx-2">
-                        <a className="nav-link text-light" href="#">Contact</a>
+                        <Link to="/portfolio" className="nav-link text-light">
+                            Portfolio
+                        </Link>
                     </li>
                     <li className="nav-item mx-2">
-                        <a className="nav-link text-light" href="#">Resume</a>
+                        <Link to="/contact" className="nav-link text-light">
+                            Contact
+                        </Link>
+                    </li>
+                    <li className="nav-item mx-2">
+                        <Link to="/resume" className="nav-link text-light">
+                            Resume
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -33,4 +46,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
