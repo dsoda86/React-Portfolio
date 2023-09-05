@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 
 :root {
   --primary-teal: #1fc7ab;
   --primary-dark: rgba(255, 255, 255, 0);
 }
-/*
+
 body {
   font-family: "Montserrat", sans-serif !important;
   background: rgb(31,199,171);
   background: linear-gradient(90deg, rgba(31,199,171,1) 0%, rgba(101,47,145,1) 50%, rgba(31,199,171,1) 100%);
 }
-*/
+
 .App {
-  text-align: center;
   display: flex;
-    flex-direction: column;
-    /* Set a minimum width of the viewport */
-    /* Set a minimum height of the viewport */
-    min-height: 100vh;
-    min-width: 100vw;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin-top: 8rem;
 }
 
 .App-logo {
@@ -44,4 +44,8 @@ nav a.nav-link {
 
 h4 {
   padding-top: .75rem;
+}
+
+footer {
+  margin-top: auto;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logo.jpeg";
+import logo from "../../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,7 +13,7 @@ function Navbar({ currentPage, handlePageChange }) {
             <FontAwesomeIcon icon={faBars} size="2xl" style={{color: "#1fc7ab",}} />
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav text-uppercase text-white d-flex justify-content-even fs-4 mx-5 ms-auto mb-2 mb-lg-0">
+                <ul className="navbar-nav text-uppercase text-light d-flex justify-content-even fs-4 mx-5 ms-auto mb-2 mb-lg-0">
                     <li className="nav-item mx-2">
                         <a
                           href="#About" 
@@ -45,6 +45,7 @@ function Navbar({ currentPage, handlePageChange }) {
                             currentPage === "Contact" ? "active" : ""
                           }`}
                         >
+                          Contact
                         </a>
                     </li>
                     <li className="nav-item mx-2">
@@ -55,6 +56,7 @@ function Navbar({ currentPage, handlePageChange }) {
                             currentPage === "Resume" ? "active" : ""
                           }`}
                         >
+                          Resume
                         </a>
                     </li>
                 </ul>

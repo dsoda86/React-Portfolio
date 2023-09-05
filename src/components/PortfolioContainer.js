@@ -1,37 +1,52 @@
-import React, { useState } from "react";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import React from "react";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 import Resume from "./pages/Resume/Resume";
 
-export default function PortfolioContainer () {
-    const [currentPage, setCurrentPage] = useState("About");
+export default function PortfolioContainer({ currentPage }) {
+    let content = null;
 
-    const renderPage = () => {
-        if (currentPage === 'About') {
-          return <About />;
-        }
-        if (currentPage === 'Portfolio') {
-          return <Portfolio />;
-        }
-        if (currentPage === 'Contact') {
-          return <Contact />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        return <About />;
-      };
+    switch (currentPage) {
+        case "About":
+            content = (
+                <div>
+                    <About />
+                </div>
+            );
+            break;
 
-      const handlePageChange = (page) => setCurrentPage(page);
+        case "Portfolio":
+            content = (
+                <div>
+                    <Portfolio />
+                </div>
+            );
+            break;
+        
+        case "Contact":
+            content = (
+                <div>
+                    <Contact />
+                </div>
+            );
+            break;
+        
+        case "Resume":
+            content = (
+                <div>
+                    <Resume />
+                </div>
+            );
+            break;
 
-      return (
-        <div>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
-            <Footer />
+        default:
+            break;
+    }
+
+    return (
+        <div className={`p-4 ${currentPage} ? "active" : "hidden"}`}>
+            <div className="container">{content}</div>
         </div>
-      )
+    )
 }
