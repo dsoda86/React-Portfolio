@@ -55,9 +55,16 @@ h4 {
 }
 
 .portfolio-container {
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
 footer {
   margin-top: auto;
+}
+
+/* About.css */
+@media (max-width: 374px) {
+  .about-card {
+    margin-top: 17rem;
+  }
 }
