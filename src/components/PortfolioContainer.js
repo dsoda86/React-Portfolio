@@ -45,8 +45,8 @@ export default function PortfolioContainer({ currentPage }) {
     }
 
     return (
-        <div className={`p-4 ${currentPage} ? "active" : "hidden"}`}>
-            <div className="container">{content}</div>
+        <div className={`${currentPage} ? "active" : "hidden"}`}>
+            <div className="container portfolio-container">{content}</div>
         </div>
     )
 }

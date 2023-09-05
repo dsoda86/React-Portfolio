@@ -1,11 +1,13 @@
 import React from 'react'
+import "./About.css"
+import profile from "../../../images/profile.png";
 
 const About = () => {
   return (
     <div className="card about-card mb-3 text-bg-dark">
         <div className="row g-0">
             <div className="col-md-4">
-                <img src="../../images/profile-pic.jpg" className="img-fluid rounded-start" alt="profle"></img>
+                <img src={profile} className="" alt="profle" />
             </div>
             <div className="col-md-8">
                 <div className="card-body">
