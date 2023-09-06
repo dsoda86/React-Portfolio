@@ -1,0 +1,12 @@
+form {
+    width: 30rem;
+}
+
+.btn {
+    background-color: #1fc7ab
+}
+
+.btn:hover {
+    background-color: #0af5ce;
+    color: rgba(101, 47, 145, 1)
+}
