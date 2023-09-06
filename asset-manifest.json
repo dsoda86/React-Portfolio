@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.6946d9e3.css",
+    "main.js": "/my-app/static/js/main.1292d647.js",
+    "static/media/parkTalk.png": "/my-app/static/media/parkTalk.7042b45235ac7ee0f263.png",
+    "static/media/fa-solid-900.ttf": "/my-app/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/mealMatch.png": "/my-app/static/media/mealMatch.d6e23f5aa37c97038b59.png",
+    "static/media/profile.png": "/my-app/static/media/profile.bf31d1a58f47c836699d.png",
+    "static/media/fa-brands-400.ttf": "/my-app/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/my-app/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/my-app/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/eCommerceORM.png": "/my-app/static/media/eCommerceORM.27541bcb3096e96204ae.png",
+    "static/media/fa-regular-400.ttf": "/my-app/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/logo.png": "/my-app/static/media/logo.0e7525f591f5c0e4a305.png",
+    "static/media/fa-regular-400.woff2": "/my-app/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/employeeTracker.png": "/my-app/static/media/employeeTracker.549ed21cc46786b02d64.png",
+    "static/media/jate.png": "/my-app/static/media/jate.a7ec5f9feca826fd7081.png",
+    "static/media/noteTaker.png": "/my-app/static/media/noteTaker.136ffd13ff4de5b8a828.png",
+    "static/media/fa-v4compatibility.ttf": "/my-app/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/my-app/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/my-app/index.html",
+    "main.6946d9e3.css.map": "/my-app/static/css/main.6946d9e3.css.map",
+    "main.1292d647.js.map": "/my-app/static/js/main.1292d647.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6946d9e3.css",
+    "static/js/main.1292d647.js"
+  ]
+}
