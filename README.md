@@ -22,7 +22,11 @@ This is my React personal portfolio page. It showcases pages rendered when the t
 
 
 ## Usage
+Deployed Page: https://dsoda86.github.io/React-Portfolio/
 
+
+Projects on Portfolio Page
+![projects](./src/images/projectsPage.png)
 
 ## Questions
 Check out my work at [github/dsoda86](https://github.com/dsoda86).
