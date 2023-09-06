@@ -13,10 +13,6 @@ body {
   background: linear-gradient(90deg, rgba(31,199,171,1) 0%, rgba(101,47,145,1) 50%, rgba(31,199,171,1) 100%);
 }
 
-main {
-  flex-grow: 1;
-}
-
 .App {
   display: flex;
   flex-direction: column;
@@ -24,6 +20,10 @@ main {
   min-width: 100vw;
 }
 
+main {
+  flex-grow: 1;
+  margin: 3rem;
+}
 .App-logo {
   max-height: 8rem;
   pointer-events: none;
@@ -36,10 +36,12 @@ main {
   left: 0;
   right: 0;
   z-index: 1000;
+  border-image: linear-gradient(to right, rgba(101, 47, 145, 1), rgba(31, 199, 171, 1), rgba(101, 47, 145, 1)) 1 !important;
+  border-image-slice: 1;
 }
 
 .navbar-nav li a {
-  border-top: .2rem solid var(--primary-dark);
+  border-top: 0.2rem solid var(--primary-dark);
 }
 
 nav a.nav-link {
@@ -47,11 +49,11 @@ nav a.nav-link {
 }
 
 .navbar-nav li a.active, .navbar-nav li a:focus {
-  border-top: .2rem solid var(--primary-teal);
+  border-top: 0.2rem solid var(--primary-teal);
 }
 
 h4 {
-  padding-top: .75rem;
+  padding-top: 0.75rem;
 }
 
 .portfolio-container {
@@ -59,7 +61,9 @@ h4 {
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 1rem;
+  border-image: linear-gradient(to right, rgba(101, 47, 145, 1), rgba(31, 199, 171, 1), rgba(101, 47, 145, 1)) 1 !important;
+  border-image-slice: 1;
 }
 
 /* About.css */

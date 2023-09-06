@@ -1,8 +1,12 @@
 .card-title {
     text-decoration: underline solid #1fc7ab;
+    letter-spacing: .03rem;
 }
 
 .profile {
     max-height: 25rem;
-    border-color: #1fc7ab !important;
+    border-image: linear-gradient(to right, rgba(31, 199, 171, 1), rgba(101, 47, 145, 1), rgba(31, 199, 171, 1)) 1 !important;
+    border-image-slice: 1;
 }
+
+

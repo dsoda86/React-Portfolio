@@ -7,7 +7,7 @@ const About = () => {
     <div className="card about-card mb-3 text-bg-dark">
         <div className="row">
             <div className="col-md-6 d-flex justify-content-center align-items-center">
-                <img src={profile} className="m-3 img-fluid profile border border-4 rounded-4" alt="profle" />
+                <img src={profile} className="m-3 img-fluid profile border border-4" alt="profle" />
             </div>
             <div className="col-md-4 d-flex justify-content-center align-items-center">
                 <div className="card-body">

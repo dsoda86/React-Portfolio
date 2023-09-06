@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg text-light bg-dark fixed-top">
+    <nav className="navbar border-bottom border-2 navbar-expand-lg text-light bg-dark fixed-top">
         <div className="container-fluid">
             <a className="navbar-brand" href="#about"><img className="App-logo" src={logo} alt="logo"/></a>
                 <h4>Douglas Soda</h4>

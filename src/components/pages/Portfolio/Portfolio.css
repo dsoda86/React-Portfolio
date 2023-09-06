@@ -1,0 +1,31 @@
+.card-link {
+    color: rgba(101,47,145,1);
+    background-color: rgba(31, 199, 171, 1);
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: .03rem;
+}
+
+.card-border-lc {
+    border-image: linear-gradient(to right, rgba(101, 47, 145, 1), rgba(31, 199, 171, 1)) 1 !important;
+    border-image-slice: 1;
+    
+}
+
+.card-border-rc {
+    border-image: linear-gradient(to right, rgba(31, 199, 171, 1), rgba(101, 47, 145, 1)) 1 !important;
+    border-image-slice: 1;
+    
+}
+
+.card-img-top {
+    width: auto;
+    height: 17rem;
+    object-fit: fill;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+

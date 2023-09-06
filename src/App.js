@@ -13,12 +13,18 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      <PortfolioContainer currentPage={currentPage} />
-      <Footer />
+      <header>
+        <Navbar
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </header>
+      <main>
+        <PortfolioContainer currentPage={currentPage} />  
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
