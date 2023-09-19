@@ -6,10 +6,27 @@ import ORM from "../../../images/eCommerceORM.png"
 import employeeTracker from "../../../images/employeeTracker.png"
 import mealMatch from "../../../images/mealMatch.png"
 import noteTaker from "../../../images/noteTaker.png"
-
+import teachTogether from "../../../images/TeachTogetherSS.png"
 const Portfolio = () => {
   return (
     <div className="row row-cols-1 row-cols-md-2 g-4">
+      <div className="col">
+        <div className="card text-bg-dark h-100 text-center border border-4 card-border-lc">
+          <img src={teachTogether} className="card-img-top p-2 border-bottom border-3 img-fluid" alt="app-screenshot"></img>
+          <div className="card-body">
+            <h5 className="card-title">Teach Together</h5>
+            <p className="card-text">
+              Hi Parents and Teachers! We, the TeachTogether team have dedicated valuable time to create an app which will make communication between Teachers and Parents
+              convenient and pleasant. This app helps Teachers and Parents communicate about the topics such as academic progess, extracurricular opportunities, guidance, and much more!
+              This is also where announcements about school events can be posted so Parents can be in the loop.
+              </p>
+            <div className="card-body">
+              <a href="https://teachtogether-ffa1db8adbe1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link p-2">Visit Page!</a>
+              <a href="https://github.com/dsoda86/TeachTogether" target="_blank" rel="noopener noreferrer" className="card-link p-2">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="col">
         <div className="card text-bg-dark h-100 text-center border border-4 card-border-lc">
           <img src={parkTalk} className="card-img-top p-2 border-bottom border-3 img-fluid" alt="app-screenshot"></img>
